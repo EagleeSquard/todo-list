@@ -23,9 +23,9 @@ export default function Home() {
   return (
     <>
     <h1 className=' text-red-600  text-[4rem] mb-5 text-center mt-2'>Welcome to todo-list....</h1>
-    <div className=' flex border-red-600 border-[1px] w-1/3 rounded-lg overflow-hidden m-auto'>
+    <div className=' flex border-red-600 border-[1px] w-1/3 rounded-full overflow-hidden m-auto'>
       <input type="text" placeholder="Enter text.." className='px-2 outline-none flex-1' value={val} onChange={changeval}/>
-      <button className='flex-2 bg-red-600 rounded-lg px-10 py-2' onClick={add}>ADD</button>
+      <button className='flex-2 bg-red-600 rounded-full px-10 py-2' onClick={add}>ADD</button>
       
     </div>
     <div className='m-auto w-1/3 mt-5 space-y-3'>{
